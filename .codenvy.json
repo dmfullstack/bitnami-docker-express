@@ -26,12 +26,12 @@
     "defaultEnv": "default",
     "projects": [
       {
-        "name": "express",
+        "name": "seed-sro-project",
         "type": "node-js",
         "path": "/express",
         "source": {
           "type": "git",
-          "location": "https://github.com/bitnami/bitnami-docker-che-blank-sample.git",
+          "location": "https://gitlab-dev.stackroute.in/sachin/seed-sro-project.git",
           "parameters": {
             "keepVcs": "false"
           }
