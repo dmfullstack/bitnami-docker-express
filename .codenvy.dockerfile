@@ -29,6 +29,8 @@ WORKDIR /projects
 
 ENV DATABASE_URL=mongodb://localhost:27017/my_project_development \
     TERM=xterm
+    
+RUN mkdir -p ./stackroute
 
 ENTRYPOINT ["/entrypoint.sh"]
 CMD sudo /usr/sbin/sshd && sudo env HOME=/root nami start --foreground mongodb
